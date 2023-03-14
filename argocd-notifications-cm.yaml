@@ -3,7 +3,7 @@ data:
   context: |
     argocdUrl: ""
   defaultTriggers: |
-    - on-sync-status-unknown
+    - on-sync-succeeded
   service.email.gmail: |
     username: $email-username
     password: $email-password
